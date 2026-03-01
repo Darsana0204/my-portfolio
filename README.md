@@ -26,10 +26,6 @@ Database: MongoDB (if used in your backend)
 
 Tools: VS Code, Git, npm
 
-Usage
+## Live Demo
 
-Open http://localhost:3000 in your browser to see the frontend.
-
-Backend API runs on http://localhost:5000 (or your configured port).
-
-Fill in the contact form to test messaging functionality.
+Check out the portfolio live at: [https://Darsana0204.github.io/my-portfolio/](https://Darsana0204.github.io/my-portfolio/)
