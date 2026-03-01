@@ -1,0 +1,50 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #0a2052;
+  color: rgb(255, 255, 255);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px 25px;
+}
+
+.profile{
+    margin-bottom: 25px;
+}
+.profile h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.profile p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: 0.3s ease;
+}
+
+.sidebar nav a:hover {
+  color: #38bdf8;
+  transform: translateX(10px);
+}
+
+.sidebar nav a.active {
+  color: #38bdf8;
+  font-weight: 600;
+}

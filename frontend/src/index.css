@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+}
+.app-layout {
+  display: flex;
+}
+.content {
+  margin-left: 260px; 
+  padding: 60px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0a669;
+}
+.page {
+  max-width: 900px;
+}
+.page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.page p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-card {
+  background: rgb(209, 109, 109);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 768px) {
+  .conennt {
+    margin-left: 200px;
+    padding: 30px;
+  }
+}
+
+
