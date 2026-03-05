@@ -26,6 +26,3 @@ Database: MongoDB (if used in your backend)
 
 Tools: VS Code, Git, npm
 
-## Live Demo
-
-Check out the portfolio live at: [https://Darsana0204.github.io/my-portfolio/](https://Darsana0204.github.io/my-portfolio/)
